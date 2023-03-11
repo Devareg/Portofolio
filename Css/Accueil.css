@@ -1,0 +1,90 @@
+body{
+     margin: 0 7% 0 7%  ;    
+     background-color: rgb(1, 105, 105);
+}
+
+nav{ 
+    /* max-width: 600px; */
+    display: block;
+    margin-top: 2%;
+    background-color: rgb(240, 240, 240);
+    justify-content: space-between;
+    justify-items: center;
+    border-radius: 80px;
+    height: 5em;
+    align-content: center;
+}
+.nav-img{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.liste-nav{
+    display: flex;
+    min-width: 5px;
+    margin: auto;
+    font-size: 18px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ list-style-type: none ;       /* Suppression des puces */
+ /* display:block;                Transformation en block */
+min-width: 120px;             /* Largeur minimale des liens */
+
+}
+
+.liste a{
+    justify-content: space-between;
+   margin-right: 50px;
+   color: rgb(1, 120, 124); 
+   text-decoration: none;
+   
+}
+.liste a:hover {
+    color: #ff0000;
+}
+
+.section1{
+    background: ;
+}
+
+
+
+
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  /* Fin de la navbar */
+.section1{
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.nom{
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.trait{
+    border: 2px solid rgb(240, 240, 240);
+    margin-top: -20px;
+}
+/* Ici débute le footer */
+
+.réseau-sociaux{
+    height: 40px;
+}
